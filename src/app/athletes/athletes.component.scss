@@ -1,3 +1,58 @@
-.mat-card {
-    display: inline-block;
+tr.example-detail-row {
+  height: 0;
+}
+tr.mat-row {
+    background-color: #0D0D0D;
+}
+td.mat-cell {
+  padding-right: 30px;
+}
+
+tr.example-element-row:not(.example-expanded-row):hover {
+  background: whitesmoke;
+}
+
+tr.example-element-row:not(.example-expanded-row):active {
+  background: #efefef;
+}
+
+.thumpnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.example-element-image {
+  width: 30px;
+  height:30px;
+  border-radius: 50%;
+}
+.example-element-row td {
+  border-bottom-width: 0;
+}
+
+.example-element-detail {
+  overflow: hidden;
+  display: flex;
+}
+
+.example-element-diagram {
+  padding: 8px;
+  font-weight: lighter;
+  margin: 8px 0;
+  height: 104px;
+}
+
+.example-element-symbol {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: normal;
+}
+
+.example-element-description {
+  padding: 16px;
+}
+
+.example-element-description-attribution {
+  opacity: 0.5;
 }
