@@ -14,6 +14,7 @@ interface ITab {
 })
 export class MainComponent {
     public tabs: ITab[] = [
+        { name: 'Overview', route: ['/overview'] },
         { name: 'Brackets', route: ['/brackets'] },
         { name: 'News', route: ['/news'] },
         { name: 'Athletes', route: ['/athletes'] },
