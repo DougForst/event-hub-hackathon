@@ -1,1 +1,37 @@
-<p>tiles works!</p>
+<div fxLayout="row" class="wrap">
+    <div *ngFor="let match of matches" class="match" fxFlex="50" fxFlex.xs="100">
+        <mat-card >
+            <div class="header">
+                {{match.division}} &bull; {{match.weight}}
+                <div fxFlex></div>
+                Bout: {{match.boutNo}}
+            </div>
+            <table class="w-100">
+                <tr>
+                    <td>
+                        {{match.wrestler1.name}}
+                        <span class="text-mute">{{match.wrestler1.team}}</span>
+                    </td>
+                    <td class="text-center">
+                        {{match.wrestler1.score}}
+                    </td>
+                    <td class="text-right">
+                        {{match.period}}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        {{match.wrestler2.name}}
+                        <span class="text-mute">{{match.wrestler2.team}}</span>
+                    </td>
+                    <td class="text-right">
+                        {{match.wrestler1.score}}
+                    </td>
+                    <td class="text-right">
+                        {{match.time}}
+                    </td>
+                </tr>
+            </table>
+        </mat-card>
+    </div>
+</div>

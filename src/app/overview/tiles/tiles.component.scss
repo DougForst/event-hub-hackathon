@@ -1,0 +1,14 @@
+.wrap {
+    flex-wrap: wrap;
+    display: inline-flex;
+}
+
+.match:nth-child(even){
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+.header {
+    border-bottom: 1px solid #dcdcdc !important;
+    padding-left: .1em;
+}
