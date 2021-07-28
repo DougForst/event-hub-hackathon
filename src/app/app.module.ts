@@ -1,7 +1,8 @@
 import { NewsComponent } from './overview/news/news.component';
 import { NgModule } from '@angular/core';
 import { MatTabsModule } from '@angular/material/tabs';
-import {MatCardModule} from '@angular/material/card';
+import  {MatCardModule } from '@angular/material/card';
+import { MatSelectModule } from '@angular/material/select';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -35,6 +36,7 @@ import { TilesComponent } from './overview/tiles/tiles.component';
     AppRoutingModule,
     MatTabsModule,
     MatCardModule,
+    MatSelectModule,
     FlexLayoutModule,
     BrowserAnimationsModule
   ],
