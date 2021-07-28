@@ -18,6 +18,7 @@ import { OverviewComponent } from './overview/overview.component';
 import { TeamScoresComponent } from './overview/team-scores/team-scores.component';
 import { TilesComponent } from './overview/tiles/tiles.component';
 import { VideosComponent } from './overview/videos/videos.component';
+import { ResultsOverviewComponent } from './overview/results/results.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { VideosComponent } from './overview/videos/videos.component';
     TeamScoresComponent,
     TilesComponent,
     VideosComponent,
+    ResultsOverviewComponent,
   ],
   imports: [
     BrowserModule,
