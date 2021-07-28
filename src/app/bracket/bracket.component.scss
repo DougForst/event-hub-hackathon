@@ -25,6 +25,23 @@ a {
     color: #ff140f;
 }
 
+.filter-container .mat-form-field {
+    width: 168px;
+    font-size: 85%;
+}
+
 .filter-container .mat-form-field + .mat-form-field {
     margin-left: .5em;
+}
+
+.bracket-container {
+    width: 100%;
+    overflow: auto;
+}
+
+@media (min-width: 600px) {
+    .filter-container .mat-form-field {
+        width: initial;
+        font-size: 100%;
+    }
 }

@@ -1,9 +1,15 @@
 img {
-    height: 60px;
+    height: 100px;
     vertical-align: middle;
 }
 
 .header {
     text-align: center;
     border-bottom: 1px solid #1b1c1d;
+}
+
+@media (min-width: 600px) {
+    img {
+        height: 60px;
+    }
 }
