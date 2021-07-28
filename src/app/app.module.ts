@@ -9,6 +9,8 @@ import { BracketComponent } from './bracket/bracket.component';
 import { MainComponent } from './main/main.component';
 import { NewsComponent } from './news/news.component';
 import { AthletesComponent } from './athletes/athletes.component';
+import { HeaderComponent } from './header/header.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -17,11 +19,13 @@ import { AthletesComponent } from './athletes/athletes.component';
     NewsComponent,
     MainComponent,
     AthletesComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatTabsModule,
+    FlexLayoutModule,
     BrowserAnimationsModule
   ],
   providers: [],
