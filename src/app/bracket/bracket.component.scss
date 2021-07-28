@@ -24,3 +24,7 @@ a {
     text-decoration: none;
     color: #ff140f;
 }
+
+.filter-container .mat-form-field + .mat-form-field {
+    margin-left: .5em;
+}

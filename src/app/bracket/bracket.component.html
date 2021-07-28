@@ -1,33 +1,30 @@
-<mat-form-field appearance="fill">
-    <mat-label>Weight Class</mat-label>
-    <mat-select>
-        <mat-optgroup>High School</mat-optgroup>
-        <mat-option [value]="106">106</mat-option>
-        <mat-option [value]="112">112</mat-option>
-        <mat-option [value]="119">119</mat-option>
-        <mat-optgroup>College</mat-optgroup>
-        <mat-option [value]="125">125</mat-option>
-        <mat-option [value]="133">133</mat-option>
-        <mat-option [value]="141">141</mat-option>
-    </mat-select>
-</mat-form-field>
-<mat-form-field appearance="fill">
-    <mat-label>Round</mat-label>
-    <mat-select>
-        <mat-option>Prelim</mat-option>
-        <mat-option>Championship</mat-option>
-        <mat-option>Consolation</mat-option>
-    </mat-select>
-</mat-form-field>
+<div class="filter-container">
+    <mat-form-field appearance="fill">
+        <mat-label>Weight Class</mat-label>
+        <mat-select value="125">
+            <mat-optgroup>High School</mat-optgroup>
+            <mat-option value="106">106</mat-option>
+            <mat-option value="112">112</mat-option>
+            <mat-option value="119">119</mat-option>
+            <mat-optgroup>College</mat-optgroup>
+            <mat-option value="125">125</mat-option>
+            <mat-option value="133">133</mat-option>
+            <mat-option value="141">141</mat-option>
+        </mat-select>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <mat-label>Round</mat-label>
+        <mat-select value="championship">
+            <mat-option value="prelim">Prelim</mat-option>
+            <mat-option value="championship">Championship</mat-option>
+            <mat-option value="consolation">Consolation</mat-option>
+        </mat-select>
+    </mat-form-field>
+</div>
 
 <div>
     <table border="0" cellspacing="0" cellpadding="0">
         <tbody>
-            <tr height="50px;">
-                <td width="0" nowrap=""></td>
-                <td width="700" nowrap=""></td>
-                <td width="0" nowrap=""></td>
-            </tr>
             <tr height="590">
                 <td></td>
                 <td align="left" valign="top">
