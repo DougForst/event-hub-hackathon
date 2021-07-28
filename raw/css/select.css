@@ -1,0 +1,9 @@
+/* select.css */
+
+.select-wrapper input.select-dropdown:focus {
+    border-bottom-color: var(--red);
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+    color: var(--black);
+}

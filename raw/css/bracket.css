@@ -1,0 +1,28 @@
+/* bracket.css */
+
+td.trbl {
+    border: 1px solid black;
+}
+
+td.rb {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+td.tr {
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+td.r {
+    border-right: 1px solid black;
+}
+
+td.b {
+    border-bottom: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: #ff140f;
+}
