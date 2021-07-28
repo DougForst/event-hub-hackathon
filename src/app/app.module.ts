@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { MatTabsModule } from '@angular/material/tabs';
+import {MatTableModule} from '@angular/material/table';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -22,6 +23,7 @@ import { AthletesComponent } from './athletes/athletes.component';
     BrowserModule,
     AppRoutingModule,
     MatTabsModule,
+    MatTableModule,
     BrowserAnimationsModule
   ],
   providers: [],

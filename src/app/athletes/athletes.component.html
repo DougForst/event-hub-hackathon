@@ -1,1 +1,8 @@
-<p>athletes works!</p>
+<mat-card *ngFor="let athlete of athletes">
+    <mat-card-header>
+      <img mat-card-avatar src={{athlete.imgSrc}}/>
+      <mat-card-title>{{athlete.name}}</mat-card-title>
+      <mat-card-subtitle>{{athlete.group}}</mat-card-subtitle>
+      <mat-card-subtitle>{{athlete.weightClass}}</mat-card-subtitle>
+    </mat-card-header>
+</mat-card> 
