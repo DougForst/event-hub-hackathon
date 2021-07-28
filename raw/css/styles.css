@@ -1,0 +1,23 @@
+/* main.css */
+
+:root {
+    /* colors */
+    --white: #ffffff;
+    --off-white: #f9f9f9;
+    --light-grey: #a3a3a3;
+    --grey: #232327;
+    --black: #0c0c0c;
+    --red: #ff140f;
+}
+
+body {
+    background-color: var(--off-white);
+}
+
+.red-text {
+    color: var(--red);
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}

@@ -1,0 +1,21 @@
+/* text-input.css */
+
+.input-small {
+}
+
+.input-small input:not([type]),
+.input-small input[type=text],
+.input-small input[type=password],
+.input-small input[type=email],
+.input-small input[type=url],
+.input-small input[type=time],
+.input-small input[type=date],
+.input-small input[type=datetime],
+.input-small input[type=datetime-local],
+.input-small input[type=tel],
+.input-small input[type=number],
+.input-small input[type=search],
+.input-small textarea.materialize-textarea {
+  height: 2.5rem;
+  font-size: 12px;
+}
