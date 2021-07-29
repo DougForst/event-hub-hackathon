@@ -1,8 +1,11 @@
+<header>
+    <h1 class="m-0">2021 NCAA Division I Championships</h1>
+    <button mat-button mat-raised-button color="primary">Watch Live</button>
+    <h3 class="d-inline-block text-mute ml-2 text-weight-200">Mar 18-20, 2021</h3>
+</header>
 <nav mat-tab-nav-bar>
     <a mat-tab-link *ngFor="let tab of tabs"
         [routerLink]="tab.route"
         (click)="activeTab = tab"
         [active]="activeTab == tab">{{tab.name}}</a>
-
-    <button mat-button mat-raised-button color="primary">Watch Live</button>
 </nav>
