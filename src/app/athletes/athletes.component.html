@@ -3,7 +3,7 @@
        [dataSource]="athletes" multiTemplateDataRows
        class="mat-elevation-z8">
     <ng-container matColumnDef="image">
-        <td mat-cell *matCellDef="let element"><img class="thumpnail" src="{{element.image}}" alt=""></td>
+        <td mat-cell *matCellDef="let element"class="image"><img class="thumpnail" src="{{element.image}}" alt=""></td>
     </ng-container>
     <ng-container matColumnDef="name">
         <td mat-cell *matCellDef="let element" class="name"> {{element.name}}<br>
@@ -31,7 +31,7 @@
                 </div>
                 <div class="current-details" *ngIf="element.currentDetail">
                     <div class="upNext detail-section" *ngIf="element.currentDetail?.upNext?.length">
-                        <h3>Up Next</h3>
+                        <h3>UP NEXT</h3>
                         <mat-list>
                             <mat-list-item *ngFor="let event of element.currentDetail.upNext">
                                 <span class="round">Round {{event.round}}</span>
@@ -41,7 +41,7 @@
                         </mat-list>
                     </div>
                     <div class="result detail-section" *ngIf="element.currentDetail?.result?.length">
-                        <h3>Results</h3>
+                        <h3>RESULTS</h3>
                         <mat-list>
                             <mat-list-item *ngFor="let event of element.currentDetail.result">
                                 <span class="round">Round {{event.round}}</span>
@@ -51,7 +51,7 @@
                         </mat-list>
                     </div>
                 </div>
-                <div>
+                <div class="social-row">
                     <mat-icon>facebook</mat-icon>
                     <mat-icon>info</mat-icon>
                 </div>
