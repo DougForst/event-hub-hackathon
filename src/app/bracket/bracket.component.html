@@ -1,25 +1,34 @@
-<div class="filter-container">
-    <mat-form-field appearance="fill">
-        <mat-label>Weight Class</mat-label>
-        <mat-select value="125">
-            <mat-optgroup class="division">High School</mat-optgroup>
-            <mat-option value="106">106</mat-option>
-            <mat-option value="112">112</mat-option>
-            <mat-option value="119">119</mat-option>
-            <mat-optgroup class="division">College</mat-optgroup>
-            <mat-option value="125">125</mat-option>
-            <mat-option value="133">133</mat-option>
-            <mat-option value="141">141</mat-option>
-        </mat-select>
-    </mat-form-field>
-    <mat-form-field appearance="fill">
-        <mat-label>Round</mat-label>
-        <mat-select value="championship">
-            <mat-option value="prelim">Prelim</mat-option>
-            <mat-option value="championship">Championship</mat-option>
-            <mat-option value="consolation">Consolation</mat-option>
-        </mat-select>
-    </mat-form-field>
+<div class="filter-container" fxLayout.gt-xs="row" fxLayout.xs="column" fxLayoutAlign.xs="start center"  fxLayoutGap="1em">
+    <div fxLayout="row">
+        <mat-form-field appearance="fill">
+            <mat-label>Weight Class</mat-label>
+            <mat-select value="125">
+                <mat-optgroup class="division">High School</mat-optgroup>
+                <mat-option value="106">106</mat-option>
+                <mat-option value="112">112</mat-option>
+                <mat-option value="119">119</mat-option>
+                <mat-optgroup class="division">College</mat-optgroup>
+                <mat-option value="125">125</mat-option>
+                <mat-option value="133">133</mat-option>
+                <mat-option value="141">141</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Round</mat-label>
+            <mat-select value="championship">
+                <mat-option value="prelim">Prelim</mat-option>
+                <mat-option value="championship">Championship</mat-option>
+                <mat-option value="consolation">Consolation</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
+    <div fxFlex fxHide.xs></div>
+    <div fxLayout="row" class="toolbar">
+        <button mat-button><mat-icon>arrow_back_ios</mat-icon> </button>
+        <button mat-button><mat-icon>arrow_forward_ios</mat-icon> </button>
+        <button mat-button><mat-icon>print</mat-icon></button>
+        <button mat-button><mat-icon color="primary">star</mat-icon> </button>
+    </div>
 </div>
 
 <div class="bracket-container">
@@ -109,8 +118,8 @@
                                                 </table>
                                             </div>
                                         </td>
-                                        <td valign="center" style="min-width:100px;width:100px;height:112px;" colspan="1"
-                                            rowspan="12">
+                                        <td valign="center" style="min-width:100px;width:100px;height:112px;"
+                                            colspan="1" rowspan="12">
                                             <div class="center">
                                                 <table style="width:100%;font-size:8pt;height:112px;" cellspacing="0"
                                                     border="0" cellpadding="0">
@@ -124,8 +133,8 @@
                                                 </table>
                                             </div>
                                         </td>
-                                        <td valign="center" style="min-width:100px;width:100px;height:261px;" colspan="1"
-                                            rowspan="28">
+                                        <td valign="center" style="min-width:100px;width:100px;height:261px;"
+                                            colspan="1" rowspan="28">
                                             <div class="center">
                                                 <table style="width:100%;font-size:8pt;height:261px;" cellspacing="0"
                                                     border="0" cellpadding="0">
@@ -141,8 +150,8 @@
                                         </td>
                                     </tr>
                                     <tr style="height:9px;min-height:9px;">
-                                        <td class="trbl" valign="bottom" style="min-width:198px;width:198px;height:16px;"
-                                            colspan="2" rowspan="2">
+                                        <td class="trbl" valign="bottom"
+                                            style="min-width:198px;width:198px;height:16px;" colspan="2" rowspan="2">
                                             <div class="center">
                                                 <table style="width:100%;font-size:8pt;height:16px;" cellspacing="0"
                                                     border="0" cellpadding="0">
@@ -175,7 +184,8 @@
                                                             <td width="100%" align="center" valign="top"><a class="video"
                                                                     href="javascript:watchVideo(10763710132)"><i
                                                                         aria-hidden="true"
-                                                                        class="icon-youtube"></i></a>TF-1.5 1:33 (16-1)</td>
+                                                                        class="icon-youtube"></i></a>TF-1.5 1:33 (16-1)
+                                                            </td>
                                                             <td nowrap="" valign="bottom"><a
                                                                     href="javascript:openBoutSheet(17,'N')">176</a></td>
                                                         </tr>
@@ -267,8 +277,8 @@
                                         </td>
                                     </tr>
                                     <tr style="height:9px;min-height:9px;">
-                                        <td class="trbl" valign="bottom" style="min-width:198px;width:198px;height:17px;"
-                                            colspan="2" rowspan="2">
+                                        <td class="trbl" valign="bottom"
+                                            style="min-width:198px;width:198px;height:17px;" colspan="2" rowspan="2">
                                             <div class="center">
                                                 <table style="width:100%;font-size:8pt;height:17px;" cellspacing="0"
                                                     border="0" cellpadding="0">
@@ -277,7 +287,8 @@
                                                             <td nowrap="" valign="center"></td>
                                                             <td width="100%" align="center" valign="bottom">
                                                                 <div class="full-line" data-wrestler-id="1349648147"
-                                                                    data-team-id="1074774140">(16) Codi Russell, APP, 16-3
+                                                                    data-team-id="1074774140">(16) Codi Russell, APP,
+                                                                    16-3
                                                                 </div>
                                                             </td>
                                                             <td nowrap="" valign="center"><a
@@ -387,8 +398,8 @@
                                         </td>
                                     </tr>
                                     <tr style="height:10px;min-height:10px;">
-                                        <td class="trbl" valign="bottom" style="min-width:198px;width:198px;height:17px;"
-                                            colspan="2" rowspan="2">
+                                        <td class="trbl" valign="bottom"
+                                            style="min-width:198px;width:198px;height:17px;" colspan="2" rowspan="2">
                                             <div class="center">
                                                 <table style="width:100%;font-size:7pt;height:17px;" cellspacing="0"
                                                     border="0" cellpadding="0">
@@ -546,8 +557,8 @@
                                         </td>
                                     </tr>
                                     <tr style="height:9px;min-height:9px;">
-                                        <td class="trbl" valign="bottom" style="min-width:198px;width:198px;height:17px;"
-                                            colspan="2" rowspan="2">
+                                        <td class="trbl" valign="bottom"
+                                            style="min-width:198px;width:198px;height:17px;" colspan="2" rowspan="2">
                                             <div class="center">
                                                 <table style="width:100%;font-size:8pt;height:17px;" cellspacing="0"
                                                     border="0" cellpadding="0">
@@ -556,7 +567,8 @@
                                                             <td nowrap="" valign="center"></td>
                                                             <td width="100%" align="center" valign="bottom">
                                                                 <div class="full-line" data-wrestler-id="1349640147"
-                                                                    data-team-id="1074766140">(8) RayVon Foley, MSU, 10-6
+                                                                    data-team-id="1074766140">(8) RayVon Foley, MSU,
+                                                                    10-6
                                                                 </div>
                                                             </td>
                                                             <td nowrap="" valign="center"><a
@@ -670,8 +682,8 @@
                                         </td>
                                     </tr>
                                     <tr style="height:10px;min-height:10px;">
-                                        <td class="trbl" valign="bottom" style="min-width:198px;width:198px;height:17px;"
-                                            colspan="2" rowspan="2">
+                                        <td class="trbl" valign="bottom"
+                                            style="min-width:198px;width:198px;height:17px;" colspan="2" rowspan="2">
                                             <div class="center">
                                                 <table style="width:100%;font-size:8pt;height:17px;" cellspacing="0"
                                                     border="0" cellpadding="0">
@@ -724,7 +736,8 @@
                                                             <td nowrap="" valign="center"></td>
                                                             <td width="100%" align="center" valign="bottom">
                                                                 <div class="full-line" data-wrestler-id="1349653147"
-                                                                    data-team-id="1074779140">(21) Trevor Mastrogiovanni,
+                                                                    data-team-id="1074779140">(21) Trevor
+                                                                    Mastrogiovanni,
                                                                     OKST, 15-6</div>
                                                             </td>
                                                             <td nowrap="" valign="center"></td>
@@ -811,8 +824,8 @@
                                         </td>
                                     </tr>
                                     <tr style="height:9px;min-height:9px;">
-                                        <td class="trbl" valign="bottom" style="min-width:198px;width:198px;height:17px;"
-                                            colspan="2" rowspan="2">
+                                        <td class="trbl" valign="bottom"
+                                            style="min-width:198px;width:198px;height:17px;" colspan="2" rowspan="2">
                                             <div class="center">
                                                 <table style="width:100%;font-size:7pt;height:17px;" cellspacing="0"
                                                     border="0" cellpadding="0">
@@ -932,8 +945,8 @@
                                         </td>
                                     </tr>
                                     <tr style="height:10px;min-height:10px;">
-                                        <td class="trbl" valign="bottom" style="min-width:198px;width:198px;height:17px;"
-                                            colspan="2" rowspan="2">
+                                        <td class="trbl" valign="bottom"
+                                            style="min-width:198px;width:198px;height:17px;" colspan="2" rowspan="2">
                                             <div class="center">
                                                 <table style="width:100%;font-size:8pt;height:17px;" cellspacing="0"
                                                     border="0" cellpadding="0">
@@ -1006,7 +1019,8 @@
                                                             <td nowrap="" valign="center"></td>
                                                             <td width="100%" align="center" valign="bottom">
                                                                 <div class="full-line" data-wrestler-id="1349661147"
-                                                                    data-team-id="1074787140">(29) Zurich Storm, CAMP, 8-7
+                                                                    data-team-id="1074787140">(29) Zurich Storm, CAMP,
+                                                                    8-7
                                                                 </div>
                                                             </td>
                                                             <td nowrap="" valign="center"></td>
@@ -1095,8 +1109,8 @@
                                         </td>
                                     </tr>
                                     <tr style="height:9px;min-height:9px;">
-                                        <td class="trbl" valign="bottom" style="min-width:198px;width:198px;height:16px;"
-                                            colspan="2" rowspan="2">
+                                        <td class="trbl" valign="bottom"
+                                            style="min-width:198px;width:198px;height:16px;" colspan="2" rowspan="2">
                                             <div class="center">
                                                 <table style="width:100%;font-size:8pt;height:16px;" cellspacing="0"
                                                     border="0" cellpadding="0">
@@ -1212,8 +1226,8 @@
                                         </td>
                                     </tr>
                                     <tr style="height:10px;min-height:10px;">
-                                        <td class="trbl" valign="bottom" style="min-width:198px;width:198px;height:17px;"
-                                            colspan="2" rowspan="2">
+                                        <td class="trbl" valign="bottom"
+                                            style="min-width:198px;width:198px;height:17px;" colspan="2" rowspan="2">
                                             <div class="center">
                                                 <table style="width:100%;font-size:8pt;height:17px;" cellspacing="0"
                                                     border="0" cellpadding="0">
@@ -1334,8 +1348,8 @@
                                                 </table>
                                             </div>
                                         </td>
-                                        <td valign="center" style="min-width:100px;width:100px;height:253px;" colspan="1"
-                                            rowspan="27">
+                                        <td valign="center" style="min-width:100px;width:100px;height:253px;"
+                                            colspan="1" rowspan="27">
                                             <div class="center">
                                                 <table style="width:100%;font-size:8pt;height:253px;" cellspacing="0"
                                                     border="0" cellpadding="0">
@@ -1351,8 +1365,8 @@
                                         </td>
                                     </tr>
                                     <tr style="height:9px;min-height:9px;">
-                                        <td class="trbl" valign="bottom" style="min-width:198px;width:198px;height:16px;"
-                                            colspan="2" rowspan="2">
+                                        <td class="trbl" valign="bottom"
+                                            style="min-width:198px;width:198px;height:16px;" colspan="2" rowspan="2">
                                             <div class="center">
                                                 <table style="width:100%;font-size:8pt;height:16px;" cellspacing="0"
                                                     border="0" cellpadding="0">
@@ -1471,8 +1485,8 @@
                                         </td>
                                     </tr>
                                     <tr style="height:9px;min-height:9px;">
-                                        <td class="trbl" valign="bottom" style="min-width:198px;width:198px;height:17px;"
-                                            colspan="2" rowspan="2">
+                                        <td class="trbl" valign="bottom"
+                                            style="min-width:198px;width:198px;height:17px;" colspan="2" rowspan="2">
                                             <div class="center">
                                                 <table style="width:100%;font-size:8pt;height:17px;" cellspacing="0"
                                                     border="0" cellpadding="0">
@@ -1481,7 +1495,8 @@
                                                             <td nowrap="" valign="center"></td>
                                                             <td width="100%" align="center" valign="bottom">
                                                                 <div class="full-line" data-wrestler-id="1349654147"
-                                                                    data-team-id="1074780140">(22) Daniel Vega, SDSU, 15-8
+                                                                    data-team-id="1074780140">(22) Daniel Vega, SDSU,
+                                                                    15-8
                                                                 </div>
                                                             </td>
                                                             <td nowrap="" valign="center"><a
@@ -1626,8 +1641,8 @@
                                         </td>
                                     </tr>
                                     <tr style="height:9px;min-height:9px;">
-                                        <td class="trbl" valign="bottom" style="min-width:198px;width:198px;height:16px;"
-                                            colspan="2" rowspan="2">
+                                        <td class="trbl" valign="bottom"
+                                            style="min-width:198px;width:198px;height:16px;" colspan="2" rowspan="2">
                                             <div class="center">
                                                 <table style="width:100%;font-size:8pt;height:16px;" cellspacing="0"
                                                     border="0" cellpadding="0">
@@ -1636,7 +1651,8 @@
                                                             <td nowrap="" valign="center"></td>
                                                             <td width="100%" align="center" valign="bottom">
                                                                 <div class="full-line" data-wrestler-id="1349638147"
-                                                                    data-team-id="1074764140">(6) Jakob Camacho, NCST, 10-4
+                                                                    data-team-id="1074764140">(6) Jakob Camacho, NCST,
+                                                                    10-4
                                                                 </div>
                                                             </td>
                                                             <td nowrap="" valign="center"><a
@@ -1678,7 +1694,8 @@
                                                             <td nowrap="" valign="center"></td>
                                                             <td width="100%" align="center" valign="bottom">
                                                                 <div class="full-line" data-wrestler-id="1349639147"
-                                                                    data-team-id="1074765140">(7) Taylor LaMont, UVU, 13-3
+                                                                    data-team-id="1074765140">(7) Taylor LaMont, UVU,
+                                                                    13-3
                                                                 </div>
                                                             </td>
                                                             <td nowrap="" valign="center"></td>
@@ -1745,8 +1762,8 @@
                                         </td>
                                     </tr>
                                     <tr style="height:9px;min-height:9px;">
-                                        <td class="trbl" valign="bottom" style="min-width:198px;width:198px;height:17px;"
-                                            colspan="2" rowspan="2">
+                                        <td class="trbl" valign="bottom"
+                                            style="min-width:198px;width:198px;height:17px;" colspan="2" rowspan="2">
                                             <div class="center">
                                                 <table style="width:100%;font-size:8pt;height:17px;" cellspacing="0"
                                                     border="0" cellpadding="0">
@@ -1779,7 +1796,8 @@
                                                             <td width="100%" align="center" valign="top"><a class="video"
                                                                     href="javascript:watchVideo(10763644132)"><i
                                                                         aria-hidden="true"
-                                                                        class="icon-youtube"></i></a>TF-1.5 5:37 (18-1)</td>
+                                                                        class="icon-youtube"></i></a>TF-1.5 5:37 (18-1)
+                                                            </td>
                                                             <td nowrap="" valign="bottom"><a
                                                                     href="javascript:openBoutSheet(29,'N')">188</a></td>
                                                         </tr>
@@ -1799,7 +1817,8 @@
                                                             <td nowrap="" valign="center"></td>
                                                             <td width="100%" align="center" valign="bottom">
                                                                 <div class="full-line" data-wrestler-id="1349655147"
-                                                                    data-team-id="1074781140">(23) Robert Howard, PSU, 7-6
+                                                                    data-team-id="1074781140">(23) Robert Howard, PSU,
+                                                                    7-6
                                                                 </div>
                                                             </td>
                                                             <td nowrap="" valign="center"></td>
@@ -1866,8 +1885,8 @@
                                         </td>
                                     </tr>
                                     <tr style="height:10px;min-height:10px;">
-                                        <td class="trbl" valign="bottom" style="min-width:198px;width:198px;height:17px;"
-                                            colspan="2" rowspan="2">
+                                        <td class="trbl" valign="bottom"
+                                            style="min-width:198px;width:198px;height:17px;" colspan="2" rowspan="2">
                                             <div class="center">
                                                 <table style="width:100%;font-size:7pt;height:17px;" cellspacing="0"
                                                     border="0" cellpadding="0">
@@ -1987,8 +2006,8 @@
                                         </td>
                                     </tr>
                                     <tr style="height:9px;min-height:9px;">
-                                        <td class="trbl" valign="bottom" style="min-width:198px;width:198px;height:17px;"
-                                            colspan="2" rowspan="2">
+                                        <td class="trbl" valign="bottom"
+                                            style="min-width:198px;width:198px;height:17px;" colspan="2" rowspan="2">
                                             <div class="center">
                                                 <table style="width:100%;font-size:8pt;height:17px;" cellspacing="0"
                                                     border="0" cellpadding="0">
@@ -1997,7 +2016,8 @@
                                                             <td nowrap="" valign="center"></td>
                                                             <td width="100%" align="center" valign="bottom">
                                                                 <div class="full-line" data-wrestler-id="1349650147"
-                                                                    data-team-id="1074776140">(18) Noah Surtin, MIZZ, 9-6
+                                                                    data-team-id="1074776140">(18) Noah Surtin, MIZZ,
+                                                                    9-6
                                                                 </div>
                                                             </td>
                                                             <td nowrap="" valign="center"><a
@@ -2108,8 +2128,8 @@
                                         </td>
                                     </tr>
                                     <tr style="height:10px;min-height:10px;">
-                                        <td class="trbl" valign="bottom" style="min-width:198px;width:198px;height:17px;"
-                                            colspan="2" rowspan="2">
+                                        <td class="trbl" valign="bottom"
+                                            style="min-width:198px;width:198px;height:17px;" colspan="2" rowspan="2">
                                             <div class="center">
                                                 <table style="width:100%;font-size:8pt;height:17px;" cellspacing="0"
                                                     border="0" cellpadding="0">
@@ -2118,7 +2138,8 @@
                                                             <td nowrap="" valign="center"></td>
                                                             <td width="100%" align="center" valign="bottom">
                                                                 <div class="full-line" data-wrestler-id="1349634147"
-                                                                    data-team-id="1074760140">(2) Sam Latona, VT, 14-3</div>
+                                                                    data-team-id="1074760140">(2) Sam Latona, VT, 14-3
+                                                                </div>
                                                             </td>
                                                             <td nowrap="" valign="center"><a
                                                                     href="javascript:openBoutSheet(16,'N')">21</a></td>

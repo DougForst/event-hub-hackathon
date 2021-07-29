@@ -18,7 +18,7 @@
     </ng-container>
     <ng-container matColumnDef="arrow">
         <td mat-cell *matCellDef="let element">
-            <mat-icon>expand_more</mat-icon>
+          <button mat-button><mat-icon>expand_more</mat-icon></button>
         </td>
     </ng-container>
     
@@ -27,8 +27,10 @@
         <td mat-cell *matCellDef="let element" [attr.colspan]="columnsToDisplay.length">
             <div class="element-detail" [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'">
                 <div class="more-info-buttons">
-                    <button mat-stroked-button color="primary">Bracket</button>
-                    <button mat-stroked-button color="primary">Profile</button>
+                    <button mat-button mat-raised-button>Bracket</button>
+                    <button mat-button mat-raised-button>Profile</button>
+                    <button *ngIf="!element.favorite" mat-button><mat-icon>star_outlined</mat-icon> </button>
+                    <button *ngIf="element.favorite" mat-button><mat-icon color="primary">star</mat-icon> </button>
                 </div>
                 <!-- <div class="more-info-buttons">
                     <mat-chip-list aria-label="Fish selection">

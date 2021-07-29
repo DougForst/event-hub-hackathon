@@ -10,6 +10,7 @@ interface Athlete {
   division: string,
   place: string,
   currentDetail: CurrentDetail
+  favorite?: boolean;
 }
 interface CurrentDetail {
   result: Event[];
@@ -44,6 +45,7 @@ export class AthletesComponent implements OnInit {
       team: "Michigan",
       division: "D1",
       place: "7th",
+      favorite: true,
       currentDetail: {
         result: [
           {
@@ -104,6 +106,7 @@ export class AthletesComponent implements OnInit {
       team: "Pennsylvania",
       division: "D1",
       place: "3rd",
+      favorite: true,
       currentDetail: {
         result: [
           {
@@ -134,6 +137,7 @@ export class AthletesComponent implements OnInit {
       team: "Wisconsin",
       division: "D3",
       place: "2rd",
+      favorite: true,
       currentDetail: {
         result: [
           {
@@ -195,6 +199,7 @@ export class AthletesComponent implements OnInit {
       team: "Ohio State",
       division: "D1",
       place: "4rd",
+      favorite: true,
       currentDetail: {
         result: [
           

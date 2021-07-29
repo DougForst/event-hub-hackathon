@@ -39,9 +39,20 @@ a {
     overflow: auto;
 }
 
+@media (max-width: 600px) {
+    .toolbar {
+        margin-top: -1em;;
+        margin-bottom: 1em;;
+    }
+}
+
 @media (min-width: 600px) {
     .filter-container .mat-form-field {
         width: initial;
         font-size: 100%;
+    }
+
+    .bracket-container {
+        overflow: unset;
     }
 }

@@ -17,6 +17,7 @@ export class MainComponent {
         { name: 'Brackets', route: ['/brackets'] },
         { name: 'News', route: ['/news'] },
         { name: 'Athletes', route: ['/athletes'] },
+        { name: 'Teams', route: ['/teams'] },
     ];
     activeTab = this.tabs.find(tab => location.href.includes(tab.route[0]));
 
