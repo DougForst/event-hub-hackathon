@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MatTabChangeEvent } from '@angular/material/tabs';
-import { Router } from '@angular/router';
+import { ActivatedRoute, NavigationEnd, Params, Router } from '@angular/router';
 
 interface ITab {
     name: string;
@@ -19,13 +18,9 @@ export class MainComponent {
         { name: 'News', route: ['/news'] },
         { name: 'Athletes', route: ['/athletes'] },
     ];
+    activeTab = this.tabs.find(tab => location.href.includes(tab.route[0]));
 
     constructor (private router: Router) {
-
-    }
-
-    public onChange(tabEvent: MatTabChangeEvent): void {
-        const tab: ITab = this.tabs[tabEvent.index];
-        this.router.navigate(tab.route);
+        
     }
 }

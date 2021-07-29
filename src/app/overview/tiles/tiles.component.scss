@@ -1,0 +1,27 @@
+.wrap {
+    flex-wrap: wrap;
+    display: inline-flex;
+}
+
+.match {
+    margin-bottom: 1em;
+}
+.match:last-child {
+    margin-bottom: 0;
+}
+
+@media (min-width: 600px) {
+    .match {
+        margin-bottom: 0;
+    }
+
+    .match:nth-child(even){
+        padding-left: 1em;
+        padding-bottom: 1em;
+    }
+}
+
+.header {
+    border-bottom: 1px solid #dcdcdc !important;
+    padding-left: .1em;
+}

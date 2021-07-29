@@ -14,9 +14,23 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
+a {
+    color: var(--primary);
+}
+
 .p-2 {
   padding: 1em;
 }
+
+.m-2
+ {
+     margin: 1em;
+ }
+
+.mt-0
+ {
+     margin-top: 0;
+ }
 
 .pb-2 {
     padding-bottom: 1em;
@@ -26,3 +40,15 @@ body {
   text-align: right;
 }
 
+.text-mute {
+    color: #808080;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.mat-optgroup-label {
+    color: var(--primary-color) !important;
+    border-bottom: 1px solid var(--primary-color) !important;
+}

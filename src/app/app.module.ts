@@ -1,8 +1,8 @@
-import { NewsComponent } from './overview/news/news.component';
 import { NgModule } from '@angular/core';
 import { MatTabsModule } from '@angular/material/tabs';
 import {MatTableModule} from '@angular/material/table';
 import  {MatCardModule } from '@angular/material/card';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatSelectModule } from '@angular/material/select';
 import { BrowserModule } from '@angular/platform-browser';
 import {MatButtonModule} from '@angular/material/button';
@@ -12,28 +12,32 @@ import {MatIconModule} from '@angular/material/icon';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BracketComponent } from './bracket/bracket.component';
-import { MainComponent } from './main/main.component';
-import { NewsComponent as OverviewNewsComponent } from './overview/news/news.component';
 import { AthletesComponent } from './athletes/athletes.component';
+import { BracketComponent } from './bracket/bracket.component';
 import { HeaderComponent } from './header/header.component';
-import { FlexLayoutModule } from '@angular/flex-layout';
+import { MainComponent } from './main/main.component';
+import { NewsComponent } from './news/news.component';
+import { NewsOverviewComponent } from './overview/news/news-overview.component';
 import { OverviewComponent } from './overview/overview.component';
 import { TeamScoresComponent } from './overview/team-scores/team-scores.component';
 import { TilesComponent } from './overview/tiles/tiles.component';
+import { VideosComponent } from './overview/videos/videos.component';
+import { ResultsOverviewComponent } from './overview/results/results.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BracketComponent,
     NewsComponent,
-    OverviewNewsComponent,
+    NewsOverviewComponent,
     MainComponent,
     AthletesComponent,
     HeaderComponent,
     OverviewComponent,
     TeamScoresComponent,
     TilesComponent,
+    VideosComponent,
+    ResultsOverviewComponent,
   ],
   imports: [
     BrowserModule,
