@@ -1,9 +1,11 @@
 <div class="mat-card-wrapper" *ngFor="let article of articles">
     <mat-card fxLayout="row">
-        <div fxLayout="column" fxFlex="30">
-            <img mat-card-image src="{{article.imageUrl}}" alt="Photo of a Shiba Inu">
+        <div fxLayout="column" fxFlex="20">
+            <div class="mat-card-image-wrapper">
+                 <img mat-card-image src="{{article.imageUrl}}" alt="{{article.title}}">
+            </div>
         </div>
-        <div fxLayout="column" fxFlex="70">
+        <div fxLayout="column" fxFlex="80">
             <mat-card-header>
             <mat-card-title>{{article.title}}</mat-card-title>
             <mat-card-subtitle>{{article.subtitle}}</mat-card-subtitle>
@@ -13,4 +15,8 @@
             </mat-card-content>
         </div>
     </mat-card>
+</div>
+
+<div class="m-2 text-center">
+    <button mat-flat-button color="warn" class="large-button">See More</button>
 </div>
