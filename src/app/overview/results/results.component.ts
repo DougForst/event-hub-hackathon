@@ -37,12 +37,12 @@ export class ResultsOverviewComponent {
             wrestler1: {
                 name: 'T. Mirocha',
                 team: 'IOWA',
-                score: 7,
+                score: 10,
             },
             wrestler2: {
                 name: 'H. Muhamath',
                 team: 'ASU',
-                score: 7,
+                score: 2,
             },
         },
         {
@@ -56,12 +56,12 @@ export class ResultsOverviewComponent {
             wrestler1: {
                 name: 'RB. Old',
                 team: 'PSU',
-                score: 2,
+                score: 0,
             },
             wrestler2: {
                 name: 'D. Frank',
                 team: 'OKSU',
-                score: 4,
+                score: 8,
             },
         },
         {
@@ -94,7 +94,7 @@ export class ResultsOverviewComponent {
             wrestler1: {
                 name: 'A. O\'Bryan',
                 team: 'UNC',
-                score: 2,
+                score: 3,
             },
             wrestler2: {
                 name: 'S. Jones',
