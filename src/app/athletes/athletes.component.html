@@ -29,7 +29,7 @@
                     <button mat-stroked-button color="primary">Profile</button>
                 </div>
                 <div class="current-details" *ngIf="element.currentDetail">
-                    <div class="upNext" *ngIf="element.currentDetail?.upNext?.length">
+                    <div class="upNext detail-section" *ngIf="element.currentDetail?.upNext?.length">
                         <h3>Up Next</h3>
                         <mat-list>
                             <mat-list-item *ngFor="let event of element.currentDetail.upNext">
@@ -39,7 +39,7 @@
                             </mat-list-item>
                         </mat-list>
                     </div>
-                    <div class="result" *ngIf="element.currentDetail?.result?.length">
+                    <div class="result detail-section" *ngIf="element.currentDetail?.result?.length">
                         <h3>Results</h3>
                         <mat-list>
                             <mat-list-item *ngFor="let event of element.currentDetail.result">

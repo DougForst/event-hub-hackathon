@@ -46,6 +46,13 @@ tr{
   flex-direction: column;
 
     .current-details{
+        display: flex;
+        flex-wrap: wrap;
+        overflow-x: auto;
+        
+        .detail-section {
+            flex: 0 0 auto;
+        }
         h3 {
             font-size: 1.07em;
             margin: .25em;
