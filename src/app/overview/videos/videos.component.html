@@ -1,11 +1,27 @@
-<mat-card>
+<!-- <mat-card>
     <mat-card-header>
         <mat-card-title>Videos</mat-card-title>
     </mat-card-header>
     <mat-card-content>
-        <mat-card *ngFor="let video of videos" class="video">
-            <img [src]="video.url">
-            <a href="/">{{video.name}}</a>
-        </mat-card>
+        <div fxFlex="row" fxLayout="start start" class="container scrolling-wrapper">
+            <mat-card *ngFor="let video of videos" class="video">
+                <img [src]="video.url">
+                <div>
+                    <a href="/">{{video.name}}</a>
+                </div>
+            </mat-card>
+        </div>
     </mat-card-content>
-</mat-card>
+</mat-card> -->
+<mat-card-title>Videos</mat-card-title>
+<div>
+    <div fxFlex="row" fxLayout="start start" class="container scrolling-wrapper scrolling-wrapper-flexbox">
+        <div *ngFor="let video of videos" class="video card">
+            <img [src]="video.url">
+            <div class="wrap">
+                <a href="/">{{video.name}}</a>
+            </div>
+        </div>
+    </div>
+
+</div>

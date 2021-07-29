@@ -15,25 +15,31 @@ body {
 }
 
 a {
-    color: var(--primary);
+  color: var(--primary);
 }
 
 .p-2 {
   padding: 1em;
 }
 
-.m-2
- {
-     margin: 1em;
- }
+.p-0 {
+    padding: 0;
+}
 
-.mt-0
- {
-     margin-top: 0;
- }
+.m-2 {
+  margin: 1em;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-2 {
+  margin-top: 1em;
+}
 
 .pb-2 {
-    padding-bottom: 1em;
+  padding-bottom: 1em;
 }
 
 .text-right {
@@ -41,14 +47,22 @@ a {
 }
 
 .text-mute {
-    color: #808080;
+  color: #808080;
 }
 
 .w-100 {
-    width: 100%;
+  width: 100%;
 }
 
 .mat-optgroup-label {
-    color: var(--primary-color) !important;
-    border-bottom: 1px solid var(--primary-color) !important;
+  color: var(--primary-color) !important;
+  border-bottom: 1px solid var(--primary-color) !important;
+}
+
+.mat-card-header-text {
+  margin-left: 0 !important;
+}
+
+.d-inline-block {
+    display: inline-block;
 }
