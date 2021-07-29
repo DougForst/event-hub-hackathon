@@ -84,49 +84,6 @@ export class NewsComponent implements OnInit {
       content:
         `The 16u Quarters are set! While all of the matches should be good, here are the ones you won't want to miss.`
     }
-    ,{
-      title: "Minnesota Narrows 16U Team Race Heading Into Finals",
-      subtitle: "Jul 19, 2021",
-      imageUrl: "https://d2779tscntxxsw.cloudfront.net/60c422bbdd2c3.png?width=660&quality=80",
-      content:
-        `Pennsylvania is still in the lead, but with the same number of finalists, the 16U team title is still up for grabs.`
-    }
-    ,{
-      title: "Ohio Leads Team Race After Day 1 Of Junior Freestyle",
-      subtitle: "Jul 19, 2021",
-      imageUrl: "https://d2779tscntxxsw.cloudfront.net/60f4ea563b92d.png?width=400&quality=80",
-      content:
-        `In a bit of a surprise, Ohio leads PA, IL, and everyone else after day one of Junior freestyle.`
-    }
-    ,{
-      title: "Must Watch Fargo Junior R16 Matches",
-      subtitle: "Jul 19, 2021",
-      imageUrl: "https://d2779tscntxxsw.cloudfront.net/5f921b630e519.png?width=1200&quality=80",
-      content:
-        `The best matches to watch on Day 3 of Fargo in the Junior men's freestyle brackets.`
-    }
-    ,{
-      title: "Illinois Leading The Junior Team Race - Wisconsin, Iowa & Michigan Chasing",
-      subtitle: "Jul 20, 2021",
-      imageUrl: "https://d2779tscntxxsw.cloudfront.net/60f611d87cda5.png?width=400&quality=80",
-      content:
-        `Illinois takes the lead in the team race heading into the final day of matches in men's freestyle. Take a look at a full breakdown for the junior team race.`
-    }
-    ,{
-      title: "Outstanding Fargo Matches In 2021",
-      subtitle: "Jul 21, 2021",
-      imageUrl: "https://d2779tscntxxsw.cloudfront.net/60f37601a007e.png?width=1200&quality=80",
-      content:
-        `Fargo always delivers incredible action, and this year has been no different. Check out some of the best matches from the Fargodome.`
-    }
-    ,{
-      title: "Illinois Holds Off Pennsylvania And Michigan To Win Junior Team Title",
-      subtitle: "Jul 21, 2021",
-      imageUrl: "https://d2779tscntxxsw.cloudfront.net/60f7487793647.png?width=400&quality=80",
-      content:
-        `A recap of the team race for the 2021 Junior Nationals in Fargo`
-    }
-    
   ];
 
   constructor() { }
