@@ -1,0 +1,24 @@
+.example-header-image {
+    background-image: url('/assets/news/001.jpg');
+    background-size: cover;
+}
+
+.mat-card-wrapper {
+    padding: 1em 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.mat-card {
+    overflow: hidden;
+    background: transparent;
+    border-radius: 0;
+}
+
+.mat-card-image {
+    width: calc(100% + 20px);
+    margin: 0 0 -16px -20px;
+}
+
+.mat-card-content {
+    margin-left: 16px;
+}
