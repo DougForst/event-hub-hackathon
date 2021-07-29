@@ -23,6 +23,7 @@ import { TeamScoresComponent } from './overview/team-scores/team-scores.componen
 import { TilesComponent } from './overview/tiles/tiles.component';
 import { VideosComponent } from './overview/videos/videos.component';
 import { ResultsOverviewComponent } from './overview/results/results.component';
+import { TeamsComponent } from './teams/teams.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { ResultsOverviewComponent } from './overview/results/results.component';
     TilesComponent,
     VideosComponent,
     ResultsOverviewComponent,
+    TeamsComponent,
   ],
   imports: [
     BrowserModule,
