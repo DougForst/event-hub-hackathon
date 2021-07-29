@@ -67,7 +67,7 @@ export class AthletesComponent implements OnInit {
       }
     },
     {
-      name: "Adams, Liam",
+      name: "Heath, Tyler",
       image: "/assets/testAthlete.jpeg",
       group: "Dance Bracketing",
       weightClass: "155",
@@ -92,6 +92,159 @@ export class AthletesComponent implements OnInit {
             round: 3,
             bout: 1029,
             description: "Korbyn Bucknell (Iowa) vs Heath Tyler (Northwestern)"
+          }
+        ]
+      }
+    },
+    {
+      name: "Colgate, Jason",
+      image: "/assets/testAthlete.jpeg",
+      group: "Dance",
+      weightClass: "125",
+      team: "Pennsylvania",
+      division: "D1",
+      place: "3rd",
+      currentDetail: {
+        result: [
+          {
+            round: 1,
+            bout: null,
+            description: "Colgate Jason (Iowa) over Daniel Bucknell (Iowa State)"
+          }
+        ],
+        upNext: [
+          {
+            round: 2,
+            bout: 118,
+            description: "Tian Liam(Wisconsin) vs Colgate Jason (Iowa)"
+          },
+          {
+            round: 3,
+            bout: 129,
+            description: "Colgate Jason (Iowa) vs Heath Tyler (Northwestern)"
+          }
+        ]
+      }
+    },
+    {
+      name: "Ball, Leon",
+      image: "/assets/testAthlete.jpeg",
+      group: "Dance",
+      weightClass: "130",
+      team: "Wisconsin",
+      division: "D3",
+      place: "2rd",
+      currentDetail: {
+        result: [
+          {
+            round: 1,
+            bout: null,
+            description: "Griss Rhys (Penn State) over Howchin Sam (Nebraska)"
+          }
+        ],
+        upNext: [
+          {
+            round: 2,
+            bout: 138,
+            description: "Tian Liam (Wisconsin) vs Holmes Ingo (Iowa)"
+          },
+          {
+            round: 3,
+            bout: 109,
+            description: "Holmes Ingo (Iowa) vs Heath Tyler (Northwestern)"
+          }
+        ]
+      }
+    },
+    {
+      name: "Wright, Kooper",
+      image: "/assets/testAthlete.jpeg",
+      group: "Dance",
+      weightClass: "152",
+      team: "Wisconsin",
+      division: "D3",
+      place: "2rd",
+      currentDetail: {
+        result: [
+          
+        ],
+        upNext: [
+          {
+            round: 1,
+            bout: 175,
+            description: "Lucas Pinnacle (Wisconsin) vs Malik Hubbert (Ohio State) "
+          },
+          {
+            round: 2,
+            bout: 138,
+            description: " Jonah Wang (MInnesota) vs Malik Hubbert (Ohio State)  "
+          },
+          {
+            round: 3,
+            bout: 109,
+            description: " Adlai Terry (Purdue) vs Malik Hubbert (Ohio State)"
+          }
+        ]
+      }
+    },
+    {
+      name: "Ball, Athol",
+      image: "/assets/testAthlete.jpeg",
+      group: "Dance",
+      weightClass: "135",
+      team: "Ohio State",
+      division: "D1",
+      place: "4rd",
+      currentDetail: {
+        result: [
+          
+        ],
+        upNext: [
+          {
+            round: 1,
+            bout: 155,
+            description: "Corban White (Michigan) vs Athol Ball (Ohio State)"
+          },
+          {
+            round: 2,
+            bout: 138,
+            description: " Benjamin Gosling (Wisconsin) vs Athol Ball (Ohio State)  "
+          },
+          {
+            round: 3,
+            bout: 109,
+            description: "Athol Ball (Ohio State) vs Boadie Gosling (Northwestern)"
+          }
+        ]
+      }
+    },
+    {
+      name: "Hynes, Wil",
+      image: "/assets/testAthlete.jpeg",
+      group: "Dance",
+      weightClass: "175",
+      team: "Illinois",
+      division: "D1",
+      place: "8rd",
+      currentDetail: {
+        result: [
+          {
+            round: 1,
+            bout: null,
+            description: " Wil Hynes (Illinois) over Scott Wybourn (Northwestern)"
+          },
+          {
+            round: 2,
+            bout: null,
+            description: "Wil Hynes (Illinois) over Kodi Brooke (Michigan)"
+          },
+        ],
+        upNext: [
+          
+          {
+            round: 3,
+            bout: 109,
+            description: "Wil Hynes (Illinois) vs Kodi Brooke (Michigan)"
           }
         ]
       }
