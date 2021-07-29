@@ -1,0 +1,22 @@
+.wrap {
+  flex-wrap: wrap;
+  display: inline-flex;
+}
+
+.match {
+  margin-bottom: 1em;
+  width: 100%;
+}
+.match:last-child {
+  margin-bottom: 0;
+}
+
+.header {
+  border-bottom: 1px solid #dcdcdc !important;
+  padding-left: 0.1em;
+}
+
+.winner {
+  font-weight: bold;
+  color: var(--primary-color);
+}

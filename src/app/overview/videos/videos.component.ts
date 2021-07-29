@@ -32,6 +32,14 @@ export class VideosComponent implements OnInit {
             url: '/assets/videos/184.jpeg',
             name: '184 lbs Consolation - Matt Miller, NAVY vs Pete Renda, NCST',
         },
+        // {
+        //     url: '/assets/videos/125.jpeg',
+        //     name: '184 lbs Consolation - Matt Miller, NAVY vs Pete Renda, NCST',
+        // },
+        // {
+        //     url: '/assets/videos/184.jpeg',
+        //     name: '184 lbs Consolation - Matt Miller, NAVY vs Pete Renda, NCST',
+        // },
     ];
   constructor() { }
 

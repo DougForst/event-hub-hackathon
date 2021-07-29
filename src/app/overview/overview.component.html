@@ -1,4 +1,6 @@
-<div fxLayout="row" fxHide.xs fxLayoutGap="1em">
+<app-overview-videos></app-overview-videos>
+
+<div fxLayout="row" class="mt-2" fxHide.xs fxLayoutGap="1em">
     <div fxLayout="column" fxFlex="20" class="left-pane">
         <app-overview-team-scores></app-overview-team-scores>
     </div>
@@ -6,12 +8,12 @@
         <app-overview-tiles></app-overview-tiles>
     </div>
     <div fxLayout="column" fxFlex="20" class="right-pane">
-        <app-overview-videos></app-overview-videos>
+        <app-overview-results></app-overview-results>
     </div>
 </div>
 
 <div fxLayout.gt-xs="row" fxShow.xs fxHide.gt-xs fxLayoutGap="1em">
     <app-overview-tiles></app-overview-tiles>
     <app-overview-team-scores></app-overview-team-scores>
-    <app-overview-videos></app-overview-videos>
+    <app-overview-results></app-overview-results>
 </div>
