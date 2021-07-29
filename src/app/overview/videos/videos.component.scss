@@ -1,9 +1,36 @@
 img {
-    width: 100%;
-    height: auto;
+  width: 15em;
+  border-radius: 5px;
 }
 
 .video {
-    padding: .5em;
-    margin-bottom: 1em;
+  padding: 0.5em;
+  width: 15em;
+  display: inline-block;
+}
+
+.container {
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 13em;
+}
+
+.scrolling-wrapper {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  .card {
+    flex: 0 0 auto;
+  }
+}
+
+.wrap {
+  white-space: normal !important;
 }
