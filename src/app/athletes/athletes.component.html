@@ -6,7 +6,8 @@
         <td mat-cell *matCellDef="let element"><img class="thumpnail" src="{{element.image}}" alt=""></td>
     </ng-container>
     <ng-container matColumnDef="name">
-        <td mat-cell *matCellDef="let element" class="name"> {{element.name}}<br>{{element.team}}</td>
+        <td mat-cell *matCellDef="let element" class="name"> {{element.name}}<br>
+            <span class="text-mute">{{element.team}}</span></td>
     </ng-container>
     <ng-container matColumnDef="group">
         <td mat-cell *matCellDef="let element"> {{element.division}}<br>{{element.weightClass}}</td>
