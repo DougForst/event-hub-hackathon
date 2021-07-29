@@ -67,7 +67,7 @@ export class AthletesComponent implements OnInit {
       }
     },
     {
-      name: "Adams, Liam",
+      name: "Heath, Tyler",
       image: "/assets/testAthlete.jpeg",
       group: "Dance Bracketing",
       weightClass: "155",
