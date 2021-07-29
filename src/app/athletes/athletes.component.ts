@@ -8,7 +8,17 @@ interface Athlete {
   weightClass: string,
   team: string,
   division: string,
-  place: string
+  place: string,
+  currentDetail: CurrentDetail
+}
+interface CurrentDetail {
+  result: Event[];
+  upNext: Event[];
+}
+interface Event {
+  round: number,
+  bout: number|null,
+  description: string
 }
 @Component({
   selector: 'app-athletes',
@@ -23,7 +33,7 @@ interface Athlete {
   ],
 })
 export class AthletesComponent implements OnInit {
-  public columnsToDisplay: string[] = ['image','name', 'group','place'];
+  public columnsToDisplay: string[] = ['image','name', 'group','place', 'arrow'];
   public expandedElement: Athlete | null;
   public athletes: Athlete[]= [
     {
@@ -33,16 +43,58 @@ export class AthletesComponent implements OnInit {
       weightClass: "145",
       team: "Michigan",
       division: "D1",
-      place: "7th"
+      place: "7th",
+      currentDetail: {
+        result: [
+          {
+            round: 1,
+            bout: null,
+            description: "Declan Ash (Penn State) over Korbyn Bucknell (Iowa)"
+          }
+        ],
+        upNext: [
+          {
+            round: 2,
+            bout: 1018,
+            description: "Maxwell Wright (Wisconsin) vs Korbyn Bucknell (Iowa)"
+          },
+          {
+            round: 3,
+            bout: 1029,
+            description: "Korbyn Bucknell (Iowa) vs Heath Tyler (Northwestern)"
+          }
+        ]
+      }
     },
     {
       name: "Adams, Liam",
       image: "/assets/testAthlete.jpeg",
-      group: "Block Bracketing",
-      weightClass: "145",
+      group: "Dance Bracketing",
+      weightClass: "155",
       team: "Ohio",
       division: "D1",
-      place: "6th"
+      place: "6th",
+      currentDetail: {
+        result: [
+          {
+            round: 1,
+            bout: null,
+            description: "Declan Ash (Penn State) over Korbyn Bucknell (Iowa)"
+          }
+        ],
+        upNext: [
+          {
+            round: 2,
+            bout: 1018,
+            description: "Maxwell Wright (Wisconsin) vs Korbyn Bucknell (Iowa)"
+          },
+          {
+            round: 3,
+            bout: 1029,
+            description: "Korbyn Bucknell (Iowa) vs Heath Tyler (Northwestern)"
+          }
+        ]
+      }
     }
   ];
   constructor() { 
